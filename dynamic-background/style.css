@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.wrap {
+    width: 70%;
+    background-color: #2d3347;
+    border: solid 4px #b8bccb;
+    border-radius: 8px;
+}
+
+.title {
+    margin: 82px;
+    color: #fff;
+    text-align: center;
+    font-size: 82px;
+    background: url("gradient_2.webp") center;
+    background-clip: text;
+    background-size: cover;
+    color: transparent;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    from {
+        background-position: 500px;
+    }
+    to {
+        background-position: -500px;
+    }
+}
