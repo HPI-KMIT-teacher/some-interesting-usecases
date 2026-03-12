@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.wrap {
+    width: 70%;
+    background-color: #2d3347;
+    border: solid 4px #b2bce0;
+    border-radius: 8px;
+}
+
+
+
+.paragraph {
+    padding: 25px;
+    color: white;
+    columns: 200px 2;
+    column-gap: 30px;
+    text-align: justify;
+}
+
+.title {
+    column-span: all;
+    display: block;
+    text-align: center;
+    margin-bottom: -25px;
+}
